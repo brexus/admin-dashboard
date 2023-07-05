@@ -16,9 +16,9 @@ HTML, CSS
 
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/wng7tgM.png)
+![App Screenshot](https://i.imgur.com/k3kUStJ.png)
 
-![App Screenshot](https://i.imgur.com/WlycXuE.png)
+![App Screenshot](https://i.imgur.com/8c1HeEB.png)
 
 
 
