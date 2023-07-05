@@ -213,12 +213,11 @@ header#header {
     border: 0;
     padding: 10px 20px;
     margin: 0 7px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .btn:hover {
     background-color: var(--primary-darker-color);
-
 }
 
 /* MAIN SECTION CONTAINER */
@@ -303,7 +302,14 @@ main#main {
 .trending-items-container {
     border-radius: 10px;
     background-color: white;
-    padding: 20px;
+    padding: 30px;
+}
+
+.trending-item {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    padding: 10px 0;
 }
 
 .border-separation-bottom {
@@ -313,5 +319,9 @@ main#main {
     width: 90%;
     justify-self: center;
     margin: 20px 0;
+}
+
+.mr-15 {
+    margin-right: 15px;
 }
 
