@@ -149,9 +149,13 @@ header#header {
     margin-right: 10px;
 }
 
-
-.header-svg-icon {
+.svg-icon {
     width: 2rem;
+}
+
+.svg-icon:hover {
+    transform: scale(1.2);
+    transition: 0.1s;
 }
 
 .search-bar {
@@ -173,6 +177,17 @@ header#header {
 
 .profile-container > * {
     padding: 0 10px;
+}
+
+.project-item-icons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 80px;
+}
+
+.project-item-icons-container > * {
+    padding: 0 5px;
 }
 
 .profile-img {
@@ -250,7 +265,9 @@ main#main {
     /* height: 100%; */
 }
 
+.project-item-icon {
 
+}
 
 .trending-container {
     width: 100%;
@@ -269,8 +286,6 @@ main#main {
     padding: 20px;
     border-left: 8px solid orange;
     border-radius: 10px;
-    padding-bottom: 130px;
-
 }
 
 .project-item:hover {
